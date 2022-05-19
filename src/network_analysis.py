@@ -8,14 +8,13 @@ import argparse
 
 # load file
 def load_filename(filename): 
-    path = os.path.join("..", "CDS-LANG", 
-                        "network_data", 
+    path = os.path.join("in", "network_data", 
                         filename)
     return path
 
 # load directory
 def load_directory(directory):
-    path = os.path.join("..", "CDS-LANG", directory)
+    path = os.path.join("in", directory)
     file_list = os.listdir(path)
     return path, file_list
 
