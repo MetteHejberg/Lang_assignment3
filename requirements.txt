@@ -1,0 +1,6 @@
+Import the following packages from the command line to run network_analysis.py:
+- os
+- pandas
+- networkx
+- matplotlib.pyplot
+- argparse
