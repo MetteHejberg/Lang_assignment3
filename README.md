@@ -19,7 +19,7 @@ Your script should do the following:
 ## 2. Methods
 This assignment explored different ways to think about connectedness of characters within a novel. the csv saved to ```out``` shows three types of centrality (connectedness) among nodes. Degree centrality counts the number of edges connected to a single node, which plays into the intuition that the more edges a node has the more important it is. Eigenvector centrality is a measure of how well a single node is connected to other nodes in terms of shared edges to other important nodes. It plays into the intuition that important nodes are connected to other important nodes. Lastly, betweenness centrality looks at whether nodes are important for communication between other nodes. It plays into the intuition that it is important if a node connects other nodes in the network.
 
-To calculate these centrality types, I used ```networkx```. I then created a merged data frame of all three types of centrality and the node in question, which is then saved to ```out``` 
+To calculate these centrality types, I used ```networkx```. I then created a merged data frame of all three types of centrality and the node in question using ```pandas```, which is then saved to ```out``` 
 
 The script furthermore creates a visualization of the network of characters within the novel. The visual element is an important part of understanding networks. To do this, I also used ```networkx``` and saved the figure in ```out```
 
