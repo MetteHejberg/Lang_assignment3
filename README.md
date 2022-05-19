@@ -37,4 +37,4 @@ To run the code you should:
   - The outputs in ```out``` was created with: ```python src/assignment3.py -f "1H4.csv"```
 
 ## 4. Discussion of Results
-There seems to be a trend in the data that the same node has a high score for all types of centrality. However, there are of course exceptions such as Worcester who has high degree and eigenvector centrality and a low betweenness centrality. However, it also seems that betweenness centrality is the most difficult type to accomplish, which might suggest that the truly important and connected characters have a high betweenness centrality such as the prince and hotspur.
+There seems to be a trend in the data that the same node has a high score for all types of centrality. However, there are of course exceptions such as Worcester who has high degree and eigenvector centrality and a low betweenness centrality. However, it also seems that betweenness centrality is the most difficult type to accomplish, which might suggest that the truly important and connected characters have a high betweenness centrality such as the prince and Hotspur.
