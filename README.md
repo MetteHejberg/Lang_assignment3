@@ -1,4 +1,6 @@
 ## 1. Assignment 3 - Network Analysis
+Link to repository: https://github.com/MetteHejberg/Lang_assignment3/edit/main/README.md
+
 In this assignment, you are going to write a ```.py``` script which can be used for network analysis. As we saw last week, pretty much anything can be formalised as a network. We're not going to focus on creating the edgelists for this project; instead, the goal is to have a script that would work the same way on _any_ input data, as long as the input format is correct. 
 
 So, as test data, I recommend that you use the files in the folder called ```network_data```. However, the final script should be able to be resused and work on any undirected, weighted edgelist with the same column names.
@@ -23,6 +25,8 @@ To calculate these centrality types, I used ```networkx```. I then created a mer
 
 The script furthermore creates a visualization of the network of characters within the novel. The visual element is an important part of understanding networks. To do this, I also used ```networkx``` and saved the figure in ```out``` with ```matplotlib.pyplot```
 
+Get the data from here:
+
 ## 3. Usage ```network_analysis.py```
 To run the code you should:
 - Pull this repository with this folder structure 
@@ -33,3 +37,4 @@ To run the code you should:
   - The outputs in ```out``` was created with: ```python src/assignment3.py -f "1H4.csv"```
 
 ## 4. Discussion of Results
+There seems to be a trend in the data that the same node has a high score for all types of centrality. However, there are of course exceptions such as Worcester who has high degree and eigenvector centrality and a low betweenness centrality. However, it also seems that betweenness centrality is the most difficult type to accomplish, which might suggest that the truly important and connected characters have betweenness centrality.
