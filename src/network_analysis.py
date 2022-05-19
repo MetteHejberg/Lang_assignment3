@@ -74,6 +74,7 @@ def main():
             if filename.endswith(".csv"):
                 path = f"{results[0]}/{filename}"
                 data = read_csv(path)
+                print(f"saving network and csv of {filename} to out")
                 network(data, filename)
                 centrality(data, filename)
             else:
