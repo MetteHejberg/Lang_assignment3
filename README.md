@@ -17,6 +17,7 @@ Your script should do the following:
 
 
 ## 2. Methods
+This assignment explored different ways of visualize and think about connectedness of characters within a novel. 
 
 ## 3. Usage ```network_analysis.py```
 To run the code you should:
