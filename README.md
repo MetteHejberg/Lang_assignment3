@@ -21,7 +21,7 @@ This assignment explored different ways to think about connectedness of characte
 
 To calculate these centrality types, I used ```networkx```. I then created a merged data frame of all three types of centrality and the node in question using ```pandas```, which is then saved to ```out``` 
 
-The script furthermore creates a visualization of the network of characters within the novel. The visual element is an important part of understanding networks. To do this, I also used ```networkx``` and saved the figure in ```out```
+The script furthermore creates a visualization of the network of characters within the novel. The visual element is an important part of understanding networks. To do this, I also used ```networkx``` and saved the figure in ```out``` with ```matplotlib.pyplot```
 
 ## 3. Usage ```network_analysis.py```
 To run the code you should:
