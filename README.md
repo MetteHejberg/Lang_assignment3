@@ -38,3 +38,5 @@ To run the code you should:
 
 ## 4. Discussion of Results
 There seems to be a trend in the data that the same node has a high score for all types of centrality. However, there are of course exceptions such as Worcester who has high degree and eigenvector centrality and a low betweenness centrality. However, it also seems that betweenness centrality is the most difficult type to accomplish, which might suggest that the truly important and connected characters have a high betweenness centrality such as the prince and Hotspur.
+
+Eventhough the network is a bit messy, we can also visually confirm that the prince as a very central character. The network also shows that the archbishop and sir Micheal are not connected to the other characters. This is a good example of the information we get from the type of visualization. And we can confirm by consulting the csv that these two characters have the same degree centrality scores, since they have the same of amount of edges, and have a betweenness and eigenvector centrality score of 0. 
