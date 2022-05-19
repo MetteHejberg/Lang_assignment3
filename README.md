@@ -1,5 +1,5 @@
 ## 1. Assignment 3 - Network Analysis
-Link to repository: https://github.com/MetteHejberg/Lang_assignment3/edit/main/README.md
+Link to repository: https://github.com/MetteHejberg/Lang_assignment3
 
 In this assignment, you are going to write a ```.py``` script which can be used for network analysis. As we saw last week, pretty much anything can be formalised as a network. We're not going to focus on creating the edgelists for this project; instead, the goal is to have a script that would work the same way on _any_ input data, as long as the input format is correct. 
 
