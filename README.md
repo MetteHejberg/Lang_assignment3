@@ -25,7 +25,7 @@ To calculate these centrality types, I used ```networkx```. I then created a mer
 
 The script furthermore creates a visualization of the network of characters within the novel. The visual element is an important part of understanding networks. To do this, I also used ```networkx``` and saved the figure in ```out``` with ```matplotlib.pyplot```
 
-Get the data from here:
+Ross Deans Kristensen-McLachlan will provide the data
 
 ## 3. Usage ```network_analysis.py```
 To run the code you should:
